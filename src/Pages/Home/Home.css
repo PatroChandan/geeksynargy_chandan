@@ -1,0 +1,7 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+.home .main {
+  width: 100%;
+}

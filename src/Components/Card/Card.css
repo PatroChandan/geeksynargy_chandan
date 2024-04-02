@@ -1,0 +1,65 @@
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+}
+
+.card-up {
+  display: flex;
+}
+.cardup-left {
+  display: flex;
+  align-items: center;
+}
+
+.cardup-vote {
+  padding: 10px;
+}
+.cardup-left .card-vote ul {
+  list-style: none;
+}
+
+.cardup-vote ul li {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  font-size: larger;
+}
+.cardup-vote ul li icon {
+  color: #000000;
+}
+.cardup-img img {
+  width: 150px;
+  height: 225px;
+  border-radius: 8px;
+}
+.cardup-right h1 {
+  color: #000000;
+  font-weight: 400;
+}
+.cardup-right h3 {
+  color: gray;
+  margin: 0;
+  padding: 0;
+}
+.cardup-right li {
+  color: #000000;
+  overflow: hidden;
+}
+
+.cardup-right .li-blu {
+  color: #007bff;
+}
+
+.card-down {
+  margin: 10px;
+}
+
+@media (max-width: 764px) {
+  .card-up {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
